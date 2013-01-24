@@ -1,0 +1,66 @@
+$navbarBackground:#049cdb;
+$navbarHeight:30px;
+
+@import "bootstrap";
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  
+  background-color: #1f6b80;
+  padding-top: 60px;
+}
+
+#logo {
+ padding: 5px 15px;
+  margin-right: 10px;
+}
+
+
+.kaka {
+background-color: white;
+height:100%;
+ width: 50%;
+ padding: 20px 20px;
+ margin: 0 0 5px 250px;
+
+ #front {
+ float: right;
+ font-size: none;
+ text-transform: capitalize;
+ 
+}
+ #front2 {
+ float: left;
+ font-size: 1.6em;
+ letter-spacing: -1px;
+ text-transform: uppercase; 
+ margin: 0 0 5px 0;
+ }
+
+ 
+	
+}
+
+.footer {
+background-color: #548d9c;
+width: 50%;
+
+margin: 180px 0 0 250px;
+padding:25px 0 0 0; 
+text-align: center;
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+	
+
+}
